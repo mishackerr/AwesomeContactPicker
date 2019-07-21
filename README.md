@@ -22,7 +22,7 @@ pod 'AwesomeContactPicker'
 
 ## Author
 
-xygmeetouts, xg229@cornell.edu
+Michael Guo, xg229@cornell.edu
 
 ## License
 
