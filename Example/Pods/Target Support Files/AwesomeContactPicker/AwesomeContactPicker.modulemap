@@ -1,0 +1,6 @@
+framework module AwesomeContactPicker {
+  umbrella header "AwesomeContactPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

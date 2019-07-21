@@ -1,0 +1,22 @@
+{
+  "name": "AwesomeContactPicker",
+  "version": "0.1.0",
+  "summary": "A short description of AwesomeContactPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xygmeetouts/AwesomeContactPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xygmeetouts": "xg229@cornell.edu"
+  },
+  "source": {
+    "git": "https://github.com/xygmeetouts/AwesomeContactPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AwesomeContactPicker/Classes/**/*"
+}
