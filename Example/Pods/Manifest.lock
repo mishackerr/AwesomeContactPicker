@@ -32,12 +32,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeContactPicker: e54e90a6f71e6678d990b65596a56803b7c6e776
+  AwesomeContactPicker: d982b30b78bdc416e95d5f9f2c5f76ebea9a4c08
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 07d202c95168f5b3ecc5bba46b785e2c3c186b8f
+PODFILE CHECKSUM: 82fc99d6aab90e4c8af05a6462b0acc46a8c1cfe
 
 COCOAPODS: 1.7.5
