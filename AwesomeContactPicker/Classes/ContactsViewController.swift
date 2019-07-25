@@ -147,7 +147,9 @@ extension ContactsViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.setSelected(selectedContacts.contains(filteredContacts[indexPath.row].identifier), animated: false)
+        if selectedContacts.contains(filteredContacts[indexPath.row].identifier) {
+            tableView.selectRow(at: indexPath, animated: false, scrollPosition: .none)
+        }
     }
 }
 
