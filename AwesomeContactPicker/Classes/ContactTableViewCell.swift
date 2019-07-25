@@ -36,7 +36,6 @@ class ContactTableViewCell: UITableViewCell {
     override func prepareForReuse() {
         super.prepareForReuse()
         
-        selectionImageView.image = ResourceHelper.image(named: "circle")
         thumnailImageView.image = nil
         nameLabel.text = nil
     }

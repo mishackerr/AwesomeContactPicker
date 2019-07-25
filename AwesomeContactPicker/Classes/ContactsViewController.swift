@@ -19,6 +19,7 @@ class ContactsViewController: UIViewController {
     var contacts = [CNContact]()
     var displayContacts = [DisplayContact]()
     var filteredContacts = [DisplayContact]()
+    var selectedContacts: Set<String> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -135,7 +136,19 @@ extension ContactsViewController: UITableViewDataSource {
 }
 
 extension ContactsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let contactID = filteredContacts[indexPath.row].identifier
+        selectedContacts.insert(contactID)
+    }
     
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        let contactID = filteredContacts[indexPath.row].identifier
+        selectedContacts.remove(contactID)
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        cell.setSelected(selectedContacts.contains(filteredContacts[indexPath.row].identifier), animated: false)
+    }
 }
 
 struct DisplayContact {
