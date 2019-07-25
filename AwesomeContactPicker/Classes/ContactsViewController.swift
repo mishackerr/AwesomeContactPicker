@@ -23,9 +23,15 @@ class ContactsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupNavBarItems()
         setupSearchTextField()
         setupTableView()
         fetchContacts()
+    }
+    
+    func setupNavBarItems() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(didTapCancel(_:)))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(didTapDone(_:)))
     }
     
     func setupSearchTextField() {
@@ -79,6 +85,19 @@ class ContactsViewController: UIViewController {
                 }
             }
         }
+    }
+}
+
+// MARK: Nav Actions
+extension ContactsViewController {
+    @objc func didTapCancel(_ sender: UIBarButtonItem) {
+        navigationController?.dismiss(animated: true, completion: nil)
+    }
+    
+    @objc func didTapDone(_ sender: UIBarButtonItem) {
+        navigationController?.dismiss(animated: true, completion: {
+            // TODO: pass selected contacts back to the client
+        })
     }
 }
 

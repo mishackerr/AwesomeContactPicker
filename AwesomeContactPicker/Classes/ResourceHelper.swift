@@ -25,4 +25,5 @@ class ResourceHelper {
     static func image(named name: String) -> UIImage? {
         return UIImage(named: name, in: self.resourceBundle(), compatibleWith: nil)
     }
+
 }
