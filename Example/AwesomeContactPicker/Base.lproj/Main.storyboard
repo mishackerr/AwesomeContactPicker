@@ -22,7 +22,8 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnG-Pq-vi3">
-                                <rect key="frame" x="136" y="318.5" width="103" height="30"/>
+                                <rect key="frame" x="118.5" y="315.5" width="138" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Open Contacts"/>
                                 <connections>
                                     <action selector="didTapOpenContactsButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NJV-6V-gzZ"/>

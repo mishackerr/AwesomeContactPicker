@@ -153,6 +153,12 @@ extension ContactsViewController: UITableViewDelegate {
     }
 }
 
+extension ContactsViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.view.endEditing(true)
+    }
+}
+
 struct DisplayContact {
     var identifier: String
     var givenName: String

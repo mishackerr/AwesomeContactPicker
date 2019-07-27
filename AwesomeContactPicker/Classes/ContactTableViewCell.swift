@@ -22,7 +22,7 @@ class ContactTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-//        selectionStyle = .none
+        selectionStyle = .none
         thumnailImageView.layer.cornerRadius = thumnailImageView.frame.size.width / 2
         thumnailImageView.layer.masksToBounds = true
     }
