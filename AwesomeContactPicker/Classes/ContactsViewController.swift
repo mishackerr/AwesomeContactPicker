@@ -16,9 +16,39 @@ class ContactsViewController: UIViewController {
     
     let contactStore = CNContactStore()
     let contactCellReuseID = "ContactCellReuseID"
+    let unkownKey = "unkown"
+    let contactDictKeys = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    
     var contacts = [CNContact]()
     var displayContacts = [DisplayContact]()
     var filteredContacts = [DisplayContact]()
+    var sortedContactDictKeys: [String] {
+        return contactDict.keys.sorted()
+    }
+    
+    var contactDict: [String: [DisplayContact]] {
+        get {
+            var res = [String: [DisplayContact]]()
+            let contacts = filteredContacts
+            for contact in contacts {
+                let key = contact.sectionKey
+                if contactDictKeys.contains(key) {
+                    if res[key] == nil {
+                        res[key] = [contact]
+                    } else {
+                        res[key]!.append(contact)
+                    }
+                } else {
+                    if res[unkownKey] == nil {
+                        res[unkownKey] = [contact]
+                    } else {
+                        res[unkownKey]!.append(contact)
+                    }
+                }
+            }
+            return res
+        }
+    }
     var selectedContacts: Set<String> = []
     
     override func viewDidLoad() {
@@ -53,6 +83,15 @@ class ContactsViewController: UIViewController {
         tableView.dataSource = self
     }
     
+    func contact(of indexPath: IndexPath) -> DisplayContact? {
+        let key = sortedContactDictKeys[indexPath.section]
+        return contactDict[key]?[indexPath.row]
+    }
+    
+}
+
+// MARK: Contacts Fecther
+extension ContactsViewController {
     func fetchContacts() {
         contactStore.requestAccess(for: .contacts) { [weak self] (success, error) in
             if !success || error != nil {
@@ -121,40 +160,62 @@ extension ContactsViewController: UITableViewDataSource {
         return 40
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return contactDict.count
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return filteredContacts.count
+        let key = sortedContactDictKeys[section]
+        return contactDict[key]?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: contactCellReuseID, for: indexPath) as? ContactTableViewCell {
-            cell.displayContact = filteredContacts[indexPath.row]
+        if let cell = tableView.dequeueReusableCell(withIdentifier: contactCellReuseID, for: indexPath) as? ContactTableViewCell,
+            let contact = contact(of: indexPath) {
+            cell.displayContact = contact
             return cell
         }
         return UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let key = sortedContactDictKeys[section]
+        return key != unkownKey ? key : "#"
+    }
+    
+    func sectionIndexTitles(for tableView: UITableView) -> [String]? {
+        return contactDictKeys + ["#"]
+    }
+    
+    func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
+        let key = title == "#" ? unkownKey : title
+        return sortedContactDictKeys.index(of: key) ?? -1
+    }
 }
 
 extension ContactsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let contactID = filteredContacts[indexPath.row].identifier
-        selectedContacts.insert(contactID)
+        if let contact = contact(of: indexPath) {
+            selectedContacts.insert(contact.identifier)
+        }
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        let contactID = filteredContacts[indexPath.row].identifier
-        selectedContacts.remove(contactID)
+        if let contact = contact(of: indexPath) {
+            selectedContacts.remove(contact.identifier)
+        }
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        if selectedContacts.contains(filteredContacts[indexPath.row].identifier) {
+        if let contact = contact(of: indexPath),
+            selectedContacts.contains(contact.identifier) {
             tableView.selectRow(at: indexPath, animated: false, scrollPosition: .none)
         }
     }
 }
 
 extension ContactsViewController: UIScrollViewDelegate {
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.view.endEditing(true)
     }
 }
@@ -171,6 +232,17 @@ struct DisplayContact {
             return names.filter({ (name) -> Bool in
                 return name != ""
             }).joined(separator: " ")
+        }
+    }
+    var sectionKey: String {
+        get {
+            if familyName.count > 0 {
+                return String(familyName.first!)
+            } else if givenName.count > 0 {
+                return String(givenName.first!)
+            } else {
+                return "unknown"
+            }
         }
     }
 }
