@@ -81,6 +81,7 @@ class ContactsViewController: UIViewController {
         tableView.register(ResourceHelper.contactNib(), forCellReuseIdentifier: contactCellReuseID)
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.sectionIndexColor = AwesomeContactSettings.sectionIndexColor
     }
     
     func contact(of indexPath: IndexPath) -> DisplayContact? {
@@ -184,7 +185,7 @@ extension ContactsViewController: UITableViewDataSource {
     }
     
     func sectionIndexTitles(for tableView: UITableView) -> [String]? {
-        return contactDictKeys + ["#"]
+        return AwesomeContactSettings.sectionIndexHidden ? nil : contactDictKeys + ["#"]
     }
     
     func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
