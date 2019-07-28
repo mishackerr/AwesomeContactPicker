@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'AwesomeContactPicker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AwesomeContactPicker.'
+  s.summary          = 'Fast & customizable integration of contacts picker into your awesome apps'
   
   s.description      = <<-DESC
-  AwesomeContactPicker help you search and pick single or multiple contacts from the device.
+  AwesomeContactPicker help you search and pick single or multiple contacts from the device, with multiple customizable settings.
   DESC
   
   s.homepage         = 'https://github.com/xygmeetouts/AwesomeContactPicker'
