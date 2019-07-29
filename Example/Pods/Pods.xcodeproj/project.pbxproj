@@ -21,32 +21,30 @@
 		1291696393FFEA6F94FF1E0B79923B43 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6184199FB3B5007912CC2B0944710532 /* HooksPhase.swift */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = EA63DF9A68B71EC2270415185E5D8D0F /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69EB16895D0FDA9699EED91A3CFB841 /* QuartzCore.framework */; };
+		15048994AD4E768BAB619173A40E867B /* AwesomeContactPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E6CFC6E9A72C60390C0420FDABED7B /* AwesomeContactPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1662BEDD868AF1CD729C4269E69A3580 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70332416298435C630DD8461DD34CC17 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		1672E77A621E1AF0E84EE80E5F10FFBE /* AwesomeContactSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF18634521DB37C352254265E4CBC7 /* AwesomeContactSettings.swift */; };
 		18AFC13D1B42098FB51262CA2490D699 /* DynamicSizeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CAA54A4D2098788466D059A8AA6369 /* DynamicSizeSnapshot.swift */; };
+		1D15B8AAB2AE6EAE0793B4499EA4CF4D /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88B7DA1DDC96CEAC5E7100CE5AAC28C /* ContactTableViewCell.xib */; };
 		1EA797B70F587D59DD66A07503CD95D7 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE4E8BD76311E2B869B0BE2789EC92 /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		25B8696FF6F4BC3F90101C2B4A0BFFBE /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4219D3FA44D483CB21F975485E1056B /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		25CA77C1E72149C438CC1AD8157AFDB8 /* AwesomeContactPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD5E07AA240A99B8AD16A5A82507CFBD /* AwesomeContactPicker.bundle */; };
+		264FB939CB469F15CB3789160BF14E4F /* AwesomeContactPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD5E07AA240A99B8AD16A5A82507CFBD /* AwesomeContactPicker.bundle */; };
 		2A94FACEA07096DDE05ACF58491DD963 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054E4C3B8A9E993536DF762AA778F72 /* World+DSL.swift */; };
 		2A95AD48CE160CCC59957E4F91EEC9B9 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA22445A04BE26515A64C487863540F /* XCTestSuite+QuickTestSuiteBuilder.m */; };
 		2ADD7D3E0B94EF044CF3FFD2F8EA2C67 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC83AA5604D45994069BA15E506569 /* DSL.swift */; };
 		2B81EF77D89288DD3D8F3D43958B8759 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45544E7DC8BC621B5141430C9031836E /* FBSnapshotTestCase.framework */; };
-		2BA1AB7ED7212CA563A75C254D391836 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F278FB5D13A2F7DE30F23BE5AE26562C /* ContactTableViewCell.xib */; };
 		2D57849BBE4DB509C70D6DC48E6E21B3 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFC19F65DFFE3691C4254714D8AADF /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C8840D6C1270531B4A2D68B805556F67 /* UIImage+Compare.m */; };
+		2E432B5651FDCE7F18C7E060D29613FB /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CA0B331A31E8B376D162C3A375203 /* ContactTableViewCell.swift */; };
 		2EA6B2E10F38275D4CEB37B7ADDAE0E0 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 17736B10D5474525ED04B80F4DB7A120 /* QuickConfiguration.m */; };
 		3722B93E1E8BF31C11CDF45AA815A767 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5732E0ED6DBBBB00596C66A8CC05A3 /* QuickTestSuite.swift */; };
 		388EEEF155539922B266A520596C4A78 /* Pods-AwesomeContactPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0980445B4A824D8EFEC6BDCBF804A416 /* Pods-AwesomeContactPicker_Tests-dummy.m */; };
 		38B72051F26368B657ACE1CDEA474D88 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D446173A7437FDEC076073CC1CD2EE /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		38D5D8CA892E08607092C1F81D991AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148E9B9B88A6C299608B94017E20CF78 /* Foundation.framework */; };
 		3B324746542B5868C6AA793F2EF93FEB /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A50F0EDC120E18802EED93E0117B7 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		3C0F0BFD9E2C1EC676B0412A096EB3EE /* InitialNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B0EE475F87DFADA90AD2E2F66523A /* InitialNavController.swift */; };
 		3CFD5091F02F30ADE4EEC622C7F487C8 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C062573D6290607874FEA0A2892CC98 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		3D317145F0CA3D74E737AB0B919AB6E9 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 91195C3FE8813E08CCB9E5E84E52C13D /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = A90D47CFA5FBD8A0CAE1B29E54441FAE /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		405AB644E5E32AB19AE8697B4C0CE124 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 24327CFE45A85F80898112441AD0C9A4 /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43BF42159F430B01CB7F94DFDA66F510 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E906E59597539202C0610CB360AA2AC /* XCTest.framework */; };
-		45FD8107B00718358AE861135B2283D2 /* AwesomeContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC6F9A9CA1D9104D6A2F17B1550075 /* AwesomeContactPicker.swift */; };
 		4660867D6E616474D6B62FAF476CCAAD /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD609D1D873680841BE65FDD0B996EA /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		47C49D1B5D8D6AA119BE3338BC0FFDAC /* XCTestObservationCenter+CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9AD83ED2C65245B3E184EFBA34CBA4 /* XCTestObservationCenter+CurrentTestCaseTracker.m */; };
 		48F15AE2F06B8500AD60C39BB45280A3 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F7B9CC21DFE73B70B7F6C578E0A74 /* NSBundle+CurrentTestBundle.swift */; };
@@ -60,29 +58,31 @@
 		543967CB633CDE86DFD53581EAE1A35D /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6863D10AAF8E37C47FDBF1A0ECE71228 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		54A61062B9FB72C6BA0054B2A685ED0E /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B69FCB3B7E6DB593DC4744314572ED4 /* Equal.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		5A49B2C87AABFAED124DE8DDCC2FEAA1 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 8036C74125A971703752608CB217DDC1 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A9381731BBA380C0295016B7BC32184 /* ResourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6293F825E72288A1E64E3181D84A216 /* ResourceHelper.swift */; };
 		5B8DC6716BDD04AF78AC8048F5BACF38 /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F5D84D0A37C8FEF71B3748E637B755 /* SatisfyAllOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		5B95322E47D6FC42A8B8AF36BE085AAE /* AwesomeContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC603EB43EFA20200DF2478ED41C11BE /* AwesomeContactPicker-dummy.m */; };
 		5CE5E8EA75E0B3DC5BE140B61DF37EFD /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4146C224AAED48AE519602D554E4ACA /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62DFF94A7A777939C861EDA13627999B /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = D50C1A0D16BFAD8846126533C953C7BA /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632CC8A469419AA501D4DD2849BD6759 /* InitialNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E847A5682739DCBCCFCCB60AD6401A4F /* InitialNavController.swift */; };
 		63B6EE789529A220E576A10E3356FBEE /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2285555C127698E7886F270EA14750 /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		65C7F5A043925A30B66024D146D70C0E /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838169B98E8E3C2202C79F0A583C5FC5 /* SuiteHooks.swift */; };
 		663333C5E1449EB8487518A5FEAEF8AD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512E37BB9BEFAAC5CD4F09F2B6F809A8 /* Configuration.swift */; };
 		67365D8C7D4AB95553BB274368DBCF1E /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B088EC9F85A212D995C28600B2EB8690 /* Example.swift */; };
 		67D16958DA7E0257BECE6ACD1EF0A176 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216545C9DCE5C834FDBDD1CD8DAB1560 /* MatcherProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		683798C6164A47491876EF6076F27CB9 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CD2244F31A394D88CECE7986D9746 /* Functional.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		68883FA58A3BC9499E4A65775A7A7D7C /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75C59B2CA5181149318D3607EEBF0B4 /* ContactTableViewCell.swift */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E906E59597539202C0610CB360AA2AC /* XCTest.framework */; };
 		6BEA7B617028CECFCCF7E73DE1EFBC00 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D496910E737F901629A363A4EFBEED /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6CF8C877AF611E2E0C67EDD06618E63C /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C9293D14A58DDD97AA4880039FCC9A /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A072EF5090BFCADCD04E22183C0377B7 /* FBSnapshotTestCase-dummy.m */; };
-		71DEA352253B3A44D86BBA4C158A0956 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 324EA32C84C5954DACE2592C04D51F56 /* Contact.storyboard */; };
+		6E89F1467066195D7711DECC173716C2 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100A22170FDF6277A379F683250D4A0B /* Contact.storyboard */; };
 		743DDAB7AEFF42293078989FBA55C7BB /* XCTestObservationCenter+CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BFF9166360B2716DF0A68E58FA4785A /* XCTestObservationCenter+CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7460C7CD0497AAE90DA55B895F47DEC4 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4D4B76672499C8D0D092C4F7254A10 /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		76049DE81EB1E2B6C436086630F77CA0 /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C7D65BAAAD419709B9661C96B35693 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7A5B1CC9274B3E4E10EE1561F3AFD58E /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA483B1286C44C8451DC5AD8A18913FE /* Callsite.swift */; };
 		7A66539DD738BE28A057CA37AAF8F829 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A69DCDF1ED721159A1826A9D4CEA926 /* ExampleHooks.swift */; };
 		7ACF7943A939837532BB53A73F01CE63 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F90FA9899A36066AD3EC89350D45D95 /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		810A06B0AB9FCDA1C995FD3FD40B281D /* AwesomeContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48007DABC172F8231B2126E5697B9410 /* AwesomeContactPicker-dummy.m */; };
 		83128DE43716922D1C2513CA6767EC77 /* HaveValidDynamicTypeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D905CBF55A2D28A21556AEBC063AE5 /* HaveValidDynamicTypeSnapshot.swift */; };
+		85A33CBCCE1FEA221DB78F12F53CEDE7 /* AwesomeContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C80BEA8F20AF2FCB4347DF8630EDBD /* AwesomeContactPicker.swift */; };
 		86A4582105FDBBD5C53E0A2DAB4CC003 /* Nimble-Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 321613D3C2FD8CD5B501D942FC99965C /* Nimble-Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6425333CB2AEB83B9870F2D619BBA4E /* FBSnapshotTestController.m */; };
 		8B32C823A5263884ACC364067EFADA22 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311F72DE5B1649CD164EFE965ED1C01C /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -96,7 +96,6 @@
 		96C4F7349BB0B624490075CB4F37F2B4 /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DA5634DE2648F108858D1514F11E5 /* CwlCatchBadInstruction.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		981D9FBF09890E4E20DF889B2AD514F0 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A48FCC9BCF5F300AA45E499FAFDDD9 /* BeLessThanOrEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		99B2BFD67568B9953B86113CF7D1290C /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E7EE17F659B1117726B790FFECC25 /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		9A53E809C2BAB4DAFFBA16728CC98B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0AFAF7DD0C9A9CCA6839B85E5EC0DB /* Assets.xcassets */; };
 		9BA4E7F68AE9967DE324C686E6DDF1A9 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAEA1259330C0A5A668715ACD9767E /* Predicate.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23453623138A46389CA75D4FC80F557 /* SwiftSupport.swift */; };
 		9DB13659CA8F9BF54942DEDAE9F5E858 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E05FC7914EB1333C8202D2CAA5C40133 /* QuickSpecBase.m */; };
@@ -108,6 +107,7 @@
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE6AE58CEA4F2AD1BC778D67CB85B5 /* UIImage+Snapshot.m */; };
 		A787308C5CA0BCA2B3A706F44CD5F7B4 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D13891721C16921F933F4AFDA15D530 /* ErrorUtility.swift */; };
 		A9303001CC6899699410252B570C3FA2 /* NBSMockedApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 9924EF4EE42C70AA90AE8607FA055F6E /* NBSMockedApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A946F00A22E982B300B93661 /* AwesomeContactSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946F00922E982B300B93661 /* AwesomeContactSettings.swift */; };
 		AB2F79D3BF6F4CB33383BDBA189AA12B /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0967ED74515F879701B2744E23ABE3 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AD1ABD5ADD73F47E6DF31F91EA4A0FF8 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D513C48B586B6294A345A3A4E6E58C /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AE99DE37027335451FFD42AD0017BF12 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DE3BDCD5349AC1578A4DCCE630C245 /* SatisfyAnyOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -129,9 +129,10 @@
 		BF162FE488440AC9824E22EF6BD760FC /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A498C03EDF95EBC3546ED010B17F6 /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		C05E0373C6FD08E6B6BDFF08C7B51AC0 /* PrettyDynamicTypeSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADA787A3DFC4A3DA3734C24511DF690 /* PrettyDynamicTypeSyntax.swift */; };
 		C098C153F2988A344EAD8EE4C0CDF882 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526C7F8A95A453FCDD159B794CF85D44 /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		C25B379498197C1057CE03BEA009E4ED /* ResourceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B061457ABC96C9CBDC77CEC0AA9F691 /* ResourceHelper.swift */; };
+		C1AF357660F634FE56F64731B8EFFAAE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266875307D98B2DC3253E031F3B4163 /* ContactsViewController.swift */; };
 		C42E25AEAE4758760D9239D25E88FEAF /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 416073140B6DBA19B7885A7D4593132C /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F9EF84BAD292DFC2E0A1E5CEB75578 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50EC569736BB654B94FE89339BD6298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148E9B9B88A6C299608B94017E20CF78 /* Foundation.framework */; };
 		C9258D62279A83025F2FA49B61E660DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148E9B9B88A6C299608B94017E20CF78 /* Foundation.framework */; };
 		C932FE8AA46730561CE9EE34787B67DA /* Pods-AwesomeContactPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C98334322D64240B8186B92B35EDC88C /* Pods-AwesomeContactPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C971A8D42C7C043DC4970A69B81546A7 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A94825D2889A30F83B441892415D7E73 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -143,11 +144,11 @@
 		D21313F2B8BF3443B4CF02864578C13E /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = AD600977C49C446D0C028D7DD7D1FD62 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D2BE111AE3950E47C5603F7EE3456107 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7834703E33EE73BCB292B4CDB99459D /* Behavior.swift */; };
 		D7360B0323C961A7B397352B0E6E876A /* Nimble-Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCDE254E848B12F46C3ED33DA52667D /* Nimble-Snapshots-dummy.m */; };
+		D7715DBF1B74009C9B2456A86B566707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 967100A9A43C6C933B61EB5BF833FB8B /* Assets.xcassets */; };
 		DA0DA6C2D7C6235862E9A6929144EBA5 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEF4ECB38DC364612B4014471C2919 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DC5219DBE9A6FFCC45A5A78F09E63A22 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F834CA938E663BE9B2D6555C06C89C86 /* URL+FileName.swift */; };
 		DCC243D2AEC18F6FD827742DCBCC4D1E /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12F56ED5ED45369989A69F8657F56CE /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DDD9A9B146B8AC07BE80234660062915 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D35F92A6BFBF9579DAFE842BFF03D7D /* Nimble.framework */; };
-		DEBFA5AE3080E7F8B61E14E064F348E8 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815E59922673DBDCA83C2D00FA403EE2 /* ContactsViewController.swift */; };
 		DEF6305C7FCCD86B037E3811551D16E6 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853E409934965A580F65F89581D275CD /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0FC4B74774AC1644D1B62CBDC0CCBF /* UIKit.framework */; };
 		E1216911C249E3FC383CE5EE1E1066F3 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D7E91D45E71CD2E3B9D4BEF64827F /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -160,7 +161,6 @@
 		EDD6F0CB0C4A0FBF470FF1FA37E28FCC /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EA4387567499AE94FBCA2D8A44BA7C /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		EE5E0CC912F78C663A081D8071F61C59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0FC4B74774AC1644D1B62CBDC0CCBF /* UIKit.framework */; };
 		EFC160CE0D8BD88499BACB45706186B4 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B95BB8162147991C9F685EE75345B2B /* Quick-dummy.m */; };
-		F0B0F79276574652C5F777473F428E97 /* AwesomeContactPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24499584F19B0B00EF564737D2302864 /* AwesomeContactPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0EC1E8DF64700838C1BC79AFEC93A1C /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93FB6C9F7D7CDF9160A91B050C6105 /* World.swift */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 746AF28A5F2EA191691061B3DF63A6E0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F2879D2ED08204999EAB760DE2A2E200 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D0E00FDDDD1239924BC8437783253F /* Closures.swift */; };
@@ -175,13 +175,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02E31C1693381EF7741E6FA2CDEF746F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 023D5BFB5ACD14D6A350C325C8D72A8A;
-			remoteInfo = "AwesomeContactPicker-AwesomeContactPicker";
-		};
 		0E4981E04FBF239BA0DF7E2EB632C100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -202,6 +195,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
+		};
+		8AD05F4380CB53D702B0DC8F01C64077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 023D5BFB5ACD14D6A350C325C8D72A8A;
+			remoteInfo = "AwesomeContactPicker-AwesomeContactPicker";
 		};
 		9D11259E3CB3E5AB675F219F934FDE20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -243,7 +243,6 @@
 /* Begin PBXFileReference section */
 		0513ABDD1CDCF03BC7B82AC7E18620EE /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		05F3D57DE6385F0B15FDECFB5D0CD321 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
-		0620DF093F0209BD9CFFDFD024F8A834 /* AwesomeContactPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeContactPicker-Info.plist"; sourceTree = "<group>"; };
 		07AA53066840A725482D02920A46BC4C /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
 		0980445B4A824D8EFEC6BDCBF804A416 /* Pods-AwesomeContactPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeContactPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		0A445130DC36EAEA0100461C62838C84 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -253,34 +252,35 @@
 		0D35F92A6BFBF9579DAFE842BFF03D7D /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D531859A368F93514D7F35DFD85EE30 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
 		0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DBC95A9613E5847623618E3DBC39ED5 /* AwesomeContactPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeContactPicker-prefix.pch"; sourceTree = "<group>"; };
 		0E906E59597539202C0610CB360AA2AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0F23177F73847AA5ACC16C7AB50D6FC2 /* ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist"; sourceTree = "<group>"; };
 		0FB0DB72BE2A95DEDFF0106D504FF42F /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		100A22170FDF6277A379F683250D4A0B /* Contact.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Contact.storyboard; path = AwesomeContactPicker/Assets/Contact.storyboard; sourceTree = "<group>"; };
 		1081B59EC870733E879A70B5E9557B65 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
-		13DECE92772657A473253085B8C6EE60 /* AwesomeContactPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeContactPicker.modulemap; sourceTree = "<group>"; };
 		148E9B9B88A6C299608B94017E20CF78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		14E4FE2B5BD58194B57D91A2B544CCB5 /* AwesomeContactPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeContactPicker.xcconfig; sourceTree = "<group>"; };
 		17736B10D5474525ED04B80F4DB7A120 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		19916A7872BA604EBC25DE5C1847C296 /* AwesomeContactPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeContactPicker.modulemap; sourceTree = "<group>"; };
 		1A6A53B6099592CEA933311F7AA6DB20 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		1AE6F54E7969890FB573824399F11940 /* AwesomeContactPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AwesomeContactPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B69FCB3B7E6DB593DC4744314572ED4 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		216545C9DCE5C834FDBDD1CD8DAB1560 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
 		24327CFE45A85F80898112441AD0C9A4 /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
-		24499584F19B0B00EF564737D2302864 /* AwesomeContactPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeContactPicker-umbrella.h"; sourceTree = "<group>"; };
+		25C80BEA8F20AF2FCB4347DF8630EDBD /* AwesomeContactPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeContactPicker.swift; path = AwesomeContactPicker/Classes/AwesomeContactPicker.swift; sourceTree = "<group>"; };
 		26DE3BDCD5349AC1578A4DCCE630C245 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
 		2A86419D49CDA286B06299A943CB10C6 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
 		2C65C2A652942BA90EE4738EA528F7A0 /* Nimble-Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Nimble-Snapshots.xcconfig"; sourceTree = "<group>"; };
 		2D13891721C16921F933F4AFDA15D530 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		311F72DE5B1649CD164EFE965ED1C01C /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
 		321613D3C2FD8CD5B501D942FC99965C /* Nimble-Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-Snapshots-umbrella.h"; sourceTree = "<group>"; };
-		324EA32C84C5954DACE2592C04D51F56 /* Contact.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Contact.storyboard; path = AwesomeContactPicker/Assets/Contact.storyboard; sourceTree = "<group>"; };
+		3266875307D98B2DC3253E031F3B4163 /* ContactsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactsViewController.swift; path = AwesomeContactPicker/Classes/ContactsViewController.swift; sourceTree = "<group>"; };
 		33447BE42801585C1AB3BA3E4C1417A0 /* Pods-AwesomeContactPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeContactPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3574081B546438D1DE8A00BB478F76AD /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
 		35A32AC5FC9462774488E6F2773D7570 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		35B40039F6722F45C625502705A61845 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
-		3A0AFAF7DD0C9A9CCA6839B85E5EC0DB /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AwesomeContactPicker/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		3AAC6F8711354AC480454CCD30BBAC9E /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		3E6CD2244F31A394D88CECE7986D9746 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		3ED23789B3D43F8AF1085A5D6EC1A157 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
+		4033A5F8F805D87106D2356555418002 /* AwesomeContactPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeContactPicker.xcconfig; sourceTree = "<group>"; };
 		40A459C9BCB872BCBAFB2C66FC033F87 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		416073140B6DBA19B7885A7D4593132C /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		433D88FE5BF80D8E91F7B74624EE96CE /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
@@ -289,9 +289,7 @@
 		45AFC19F65DFFE3691C4254714D8AADF /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		45E3ED510C96ABAF995C1D7092D36CF7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		466716BBEF52AA763D1EA0D672CB003F /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
-		48007DABC172F8231B2126E5697B9410 /* AwesomeContactPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeContactPicker-dummy.m"; sourceTree = "<group>"; };
 		4ADA787A3DFC4A3DA3734C24511DF690 /* PrettyDynamicTypeSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrettyDynamicTypeSyntax.swift; path = DynamicType/PrettyDynamicTypeSyntax.swift; sourceTree = "<group>"; };
-		4B061457ABC96C9CBDC77CEC0AA9F691 /* ResourceHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceHelper.swift; path = AwesomeContactPicker/Classes/ResourceHelper.swift; sourceTree = "<group>"; };
 		4BA40E22062FF97E1C92F80701C185C9 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		4D3B651187CE45B77CE502B336643D71 /* PrettySyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = "<group>"; };
 		4DF4138BA6A4568670C01C4FACC87D28 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
@@ -314,13 +312,13 @@
 		60A48FCC9BCF5F300AA45E499FAFDDD9 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
 		6184199FB3B5007912CC2B0944710532 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		62AF7240466EFB66E073A677F87AB94B /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		64427390ADE7F004D771C820EE6834E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		668649C7EE0312490CCC6FE22FA8C209 /* Pods-AwesomeContactPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeContactPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		66D6DD269D4CB9D2E2C9467F1ECA875F /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		677D07E1A16E33C783B548FB431AFB15 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
 		67D513C48B586B6294A345A3A4E6E58C /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
 		6863D10AAF8E37C47FDBF1A0ECE71228 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		693AEC1129C22005082E9DCE61AC4307 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		6AE7C326BF6D37CF16F05103AD6F3BF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6B9587E1B43AC63DCEA8F75F1D5B6FBF /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		6B95BB8162147991C9F685EE75345B2B /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		6DBFBABD983BA19E333E0EB1149C3BDF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
@@ -338,7 +336,6 @@
 		7F63346C8C191BF0566B18DF620D15DA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		8036C74125A971703752608CB217DDC1 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/QuickObjectiveC/World.h; sourceTree = "<group>"; };
 		8113573184A1C0A9222EFB1BCBD90575 /* Pods-AwesomeContactPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeContactPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		815E59922673DBDCA83C2D00FA403EE2 /* ContactsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactsViewController.swift; path = AwesomeContactPicker/Classes/ContactsViewController.swift; sourceTree = "<group>"; };
 		82B133D0BB5FD34A6CC48D4F071344D0 /* Pods-AwesomeContactPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeContactPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		8371C15710212CF8190CCB7C5E5A1861 /* AwesomeContactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeContactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838169B98E8E3C2202C79F0A583C5FC5 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
@@ -355,6 +352,8 @@
 		918E7EE17F659B1117726B790FFECC25 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
 		92A1FBA998C69A06A40F56706D5EB32D /* Pods-AwesomeContactPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeContactPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		948D7E91D45E71CD2E3B9D4BEF64827F /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
+		95098F97B2049676A56A992C4E8C4F81 /* AwesomeContactPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeContactPicker-prefix.pch"; sourceTree = "<group>"; };
+		967100A9A43C6C933B61EB5BF833FB8B /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AwesomeContactPicker/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		96C9293D14A58DDD97AA4880039FCC9A /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		988B601A0241A93A19BAB23F669E159C /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
 		98C9F45F549B2837E4FF74051FEAB2FC /* Pods-AwesomeContactPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeContactPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -368,17 +367,19 @@
 		9F7AFE93647CAF4DE588A68FF00D76FD /* Nimble-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nimble-Info.plist"; sourceTree = "<group>"; };
 		A072EF5090BFCADCD04E22183C0377B7 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		A240BB14B8DCD4ACF996DEDB751F3A1E /* Pods-AwesomeContactPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeContactPicker_Example-Info.plist"; sourceTree = "<group>"; };
-		A2DC6F9A9CA1D9104D6A2F17B1550075 /* AwesomeContactPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeContactPicker.swift; path = AwesomeContactPicker/Classes/AwesomeContactPicker.swift; sourceTree = "<group>"; };
 		A34A50F0EDC120E18802EED93E0117B7 /* Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Await.swift; path = Sources/Nimble/Utils/Await.swift; sourceTree = "<group>"; };
 		A69EB16895D0FDA9699EED91A3CFB841 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A78454EC7E2E54A83DCC7BE51BFD1ADB /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		A78EB9942225A677DFF3AC16983E2C43 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
+		A88B7DA1DDC96CEAC5E7100CE5AAC28C /* ContactTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ContactTableViewCell.xib; path = AwesomeContactPicker/Assets/ContactTableViewCell.xib; sourceTree = "<group>"; };
+		A8E6CFC6E9A72C60390C0420FDABED7B /* AwesomeContactPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeContactPicker-umbrella.h"; sourceTree = "<group>"; };
 		A90D47CFA5FBD8A0CAE1B29E54441FAE /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		A946F00922E982B300B93661 /* AwesomeContactSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AwesomeContactSettings.swift; path = AwesomeContactPicker/Classes/AwesomeContactSettings.swift; sourceTree = "<group>"; };
 		A94825D2889A30F83B441892415D7E73 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
 		A9CD7316D4D708D3CAF04DBA7D566ABC /* Pods_AwesomeContactPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeContactPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABE4E8BD76311E2B869B0BE2789EC92 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
+		AC4C62AE6249F500E35812E1A9FADA78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD600977C49C446D0C028D7DD7D1FD62 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
-		AE931E2399E35389E942742CDD0EE8E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF0FC4B74774AC1644D1B62CBDC0CCBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B054E4C3B8A9E993536DF762AA778F72 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		B088EC9F85A212D995C28600B2EB8690 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
@@ -411,10 +412,9 @@
 		D4D496910E737F901629A363A4EFBEED /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		D50C1A0D16BFAD8846126533C953C7BA /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
 		D57FC52FABD927B887BDBF0ACA2785E9 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		D6293F825E72288A1E64E3181D84A216 /* ResourceHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceHelper.swift; path = AwesomeContactPicker/Classes/ResourceHelper.swift; sourceTree = "<group>"; };
 		D6425333CB2AEB83B9870F2D619BBA4E /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		D7DF18634521DB37C352254265E4CBC7 /* AwesomeContactSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeContactSettings.swift; path = AwesomeContactPicker/Classes/AwesomeContactSettings.swift; sourceTree = "<group>"; };
 		D87F332D66BAD3FDC5AEB8B350C5FA87 /* Pods-AwesomeContactPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeContactPicker_Tests-Info.plist"; sourceTree = "<group>"; };
-		DB1B0EE475F87DFADA90AD2E2F66523A /* InitialNavController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitialNavController.swift; path = AwesomeContactPicker/Classes/InitialNavController.swift; sourceTree = "<group>"; };
 		DBC359BCA7C81F2E93F36FEBA2E3195E /* Pods-AwesomeContactPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeContactPicker_Example.modulemap"; sourceTree = "<group>"; };
 		DCCDE254E848B12F46C3ED33DA52667D /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
 		DE123E63E1CB3A487632527D97F308A9 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
@@ -423,10 +423,11 @@
 		E1D0E00FDDDD1239924BC8437783253F /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		E1EAB4880BEED7C984CAD06E314FD12A /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		E298086948955290D0711C45CDFD3DB6 /* Nimble-Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Nimble-Snapshots.modulemap"; sourceTree = "<group>"; };
+		E34CA0B331A31E8B376D162C3A375203 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactTableViewCell.swift; path = AwesomeContactPicker/Classes/ContactTableViewCell.swift; sourceTree = "<group>"; };
 		E3BEF8EC3444D75CE99DCEABFA19B244 /* Pods-AwesomeContactPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeContactPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C66D4D0C1591BA05294C90FCF486FF /* AwesomeContactPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AwesomeContactPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E6DBDCA5629749C1D9890C51478B24AE /* ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist"; sourceTree = "<group>"; };
+		E41158B62246CD2F4104ADF45E00597B /* AwesomeContactPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeContactPicker-Info.plist"; sourceTree = "<group>"; };
 		E82F7B9CC21DFE73B70B7F6C578E0A74 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		E847A5682739DCBCCFCCB60AD6401A4F /* InitialNavController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitialNavController.swift; path = AwesomeContactPicker/Classes/InitialNavController.swift; sourceTree = "<group>"; };
 		E8F422FCB12B90227FCDE1FC0197B94A /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
 		EA483B1286C44C8451DC5AD8A18913FE /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		EA63DF9A68B71EC2270415185E5D8D0F /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -434,14 +435,13 @@
 		EE2599860B3B6C633051E91F61C1A2A0 /* CurrentTestCaseTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrentTestCaseTracker.swift; sourceTree = "<group>"; };
 		F0F9EF84BAD292DFC2E0A1E5CEB75578 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		F1CAA54A4D2098788466D059A8AA6369 /* DynamicSizeSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicSizeSnapshot.swift; path = DynamicSize/DynamicSizeSnapshot.swift; sourceTree = "<group>"; };
-		F278FB5D13A2F7DE30F23BE5AE26562C /* ContactTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ContactTableViewCell.xib; path = AwesomeContactPicker/Assets/ContactTableViewCell.xib; sourceTree = "<group>"; };
 		F3AD6FDBFE01DF0C4C7790FBF499399C /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		F432DB12499C8E3B0605EAC949D75233 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		F4946D510D04B66A4D656FA06EFA0F0C /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		F73A498C03EDF95EBC3546ED010B17F6 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
-		F75C59B2CA5181149318D3607EEBF0B4 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactTableViewCell.swift; path = AwesomeContactPicker/Classes/ContactTableViewCell.swift; sourceTree = "<group>"; };
 		F834CA938E663BE9B2D6555C06C89C86 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
 		F9D446173A7437FDEC076073CC1CD2EE /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		FC603EB43EFA20200DF2478ED41C11BE /* AwesomeContactPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeContactPicker-dummy.m"; sourceTree = "<group>"; };
 		FD1841F3F02CFE768143894A1CC15809 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -454,20 +454,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36480D8C03469F50593FB02A13B5E3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50EC569736BB654B94FE89339BD6298 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F7CCDE571CE6AF563671836E654CE1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E82E59647C2E9653D2E5BAA5D15CF3D /* Foundation.framework in Frameworks */,
 				43BF42159F430B01CB7F94DFDA66F510 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6736C32EDB3978D8D8E5BBF1F87D15D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38D5D8CA892E08607092C1F81D991AE6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +487,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C67695ABD3666F51DB3FD5137CF7B706 /* Frameworks */ = {
+		D59F37CA62FAA8146D6FFFEAF3919C57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -528,29 +528,22 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		0FBB2943235BA347DD07A93E877DA540 /* Support Files */ = {
+		182C95A89F6A150CC7F05E8835544021 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				13DECE92772657A473253085B8C6EE60 /* AwesomeContactPicker.modulemap */,
-				14E4FE2B5BD58194B57D91A2B544CCB5 /* AwesomeContactPicker.xcconfig */,
-				48007DABC172F8231B2126E5697B9410 /* AwesomeContactPicker-dummy.m */,
-				0620DF093F0209BD9CFFDFD024F8A834 /* AwesomeContactPicker-Info.plist */,
-				0DBC95A9613E5847623618E3DBC39ED5 /* AwesomeContactPicker-prefix.pch */,
-				24499584F19B0B00EF564737D2302864 /* AwesomeContactPicker-umbrella.h */,
-				E6DBDCA5629749C1D9890C51478B24AE /* ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AwesomeContactPicker";
-			sourceTree = "<group>";
-		};
-		17942E76D0FD00E635582DCDB2021A27 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E6C66D4D0C1591BA05294C90FCF486FF /* AwesomeContactPicker.podspec */,
-				64427390ADE7F004D771C820EE6834E6 /* LICENSE */,
-				AE931E2399E35389E942742CDD0EE8E1 /* README.md */,
+				1AE6F54E7969890FB573824399F11940 /* AwesomeContactPicker.podspec */,
+				6AE7C326BF6D37CF16F05103AD6F3BF7 /* LICENSE */,
+				AC4C62AE6249F500E35812E1A9FADA78 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1E055A1F4B4D0112533A452DED8260E8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D106E85A86F2EC9CCB4095BF9071D88C /* AwesomeContactPicker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2F439AEC6253322440C73BF9FBADE2AE /* iOS */ = {
@@ -637,6 +630,16 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		5893954A51BC538CCA2FCA087137E28D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				967100A9A43C6C933B61EB5BF833FB8B /* Assets.xcassets */,
+				100A22170FDF6277A379F683250D4A0B /* Contact.storyboard */,
+				A88B7DA1DDC96CEAC5E7100CE5AAC28C /* ContactTableViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		597F74054B9BF903B0F2A1DFCDC879E0 /* Pods-AwesomeContactPicker_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,16 +655,6 @@
 			);
 			name = "Pods-AwesomeContactPicker_Tests";
 			path = "Target Support Files/Pods-AwesomeContactPicker_Tests";
-			sourceTree = "<group>";
-		};
-		6DE027B15E56C1B8AD3BA8F0086861AF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3A0AFAF7DD0C9A9CCA6839B85E5EC0DB /* Assets.xcassets */,
-				324EA32C84C5954DACE2592C04D51F56 /* Contact.storyboard */,
-				F278FB5D13A2F7DE30F23BE5AE26562C /* ContactTableViewCell.xib */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		6FC370A92E7FC17584884086239FE4AD /* Products */ = {
@@ -711,23 +704,6 @@
 				CA9AD83ED2C65245B3E184EFBA34CBA4 /* XCTestObservationCenter+CurrentTestCaseTracker.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		96660C6C343FC98A6E8740C6510307AA /* AwesomeContactPicker */ = {
-			isa = PBXGroup;
-			children = (
-				A2DC6F9A9CA1D9104D6A2F17B1550075 /* AwesomeContactPicker.swift */,
-				D7DF18634521DB37C352254265E4CBC7 /* AwesomeContactSettings.swift */,
-				815E59922673DBDCA83C2D00FA403EE2 /* ContactsViewController.swift */,
-				F75C59B2CA5181149318D3607EEBF0B4 /* ContactTableViewCell.swift */,
-				DB1B0EE475F87DFADA90AD2E2F66523A /* InitialNavController.swift */,
-				4B061457ABC96C9CBDC77CEC0AA9F691 /* ResourceHelper.swift */,
-				17942E76D0FD00E635582DCDB2021A27 /* Pod */,
-				6DE027B15E56C1B8AD3BA8F0086861AF /* Resources */,
-				0FBB2943235BA347DD07A93E877DA540 /* Support Files */,
-			);
-			name = AwesomeContactPicker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9FDC4C9C6D0DF671FCD0B46D257F4273 /* Support Files */ = {
@@ -821,6 +797,21 @@
 			path = Nimble;
 			sourceTree = "<group>";
 		};
+		BEF96D77AEC58BAA7BCCF1A596DC1E6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19916A7872BA604EBC25DE5C1847C296 /* AwesomeContactPicker.modulemap */,
+				4033A5F8F805D87106D2356555418002 /* AwesomeContactPicker.xcconfig */,
+				FC603EB43EFA20200DF2478ED41C11BE /* AwesomeContactPicker-dummy.m */,
+				E41158B62246CD2F4104ADF45E00597B /* AwesomeContactPicker-Info.plist */,
+				95098F97B2049676A56A992C4E8C4F81 /* AwesomeContactPicker-prefix.pch */,
+				A8E6CFC6E9A72C60390C0420FDABED7B /* AwesomeContactPicker-umbrella.h */,
+				0F23177F73847AA5ACC16C7AB50D6FC2 /* ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AwesomeContactPicker";
+			sourceTree = "<group>";
+		};
 		CBCADAC55956C76F0B767C2F56A1B758 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -856,12 +847,29 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FF713832E4C44B29FEF9FE7DE86A743F /* Development Pods */,
+				1E055A1F4B4D0112533A452DED8260E8 /* Development Pods */,
 				CBCADAC55956C76F0B767C2F56A1B758 /* Frameworks */,
 				E1B29AD1CFF044CE3481E6A5B00D8748 /* Pods */,
 				6FC370A92E7FC17584884086239FE4AD /* Products */,
 				D2EAD4394D9CC1F062F672D0EB87F7C0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D106E85A86F2EC9CCB4095BF9071D88C /* AwesomeContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				25C80BEA8F20AF2FCB4347DF8630EDBD /* AwesomeContactPicker.swift */,
+				3266875307D98B2DC3253E031F3B4163 /* ContactsViewController.swift */,
+				E34CA0B331A31E8B376D162C3A375203 /* ContactTableViewCell.swift */,
+				E847A5682739DCBCCFCCB60AD6401A4F /* InitialNavController.swift */,
+				D6293F825E72288A1E64E3181D84A216 /* ResourceHelper.swift */,
+				A946F00922E982B300B93661 /* AwesomeContactSettings.swift */,
+				182C95A89F6A150CC7F05E8835544021 /* Pod */,
+				5893954A51BC538CCA2FCA087137E28D /* Resources */,
+				BEF96D77AEC58BAA7BCCF1A596DC1E6B /* Support Files */,
+			);
+			name = AwesomeContactPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D2EAD4394D9CC1F062F672D0EB87F7C0 /* Targets Support Files */ = {
@@ -910,14 +918,6 @@
 				5206F4068FCEA9C355792B9D425FF6C8 /* Quick */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		FF713832E4C44B29FEF9FE7DE86A743F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96660C6C343FC98A6E8740C6510307AA /* AwesomeContactPicker */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -995,11 +995,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC4250CBCF096BAD6A966AFC65D6BC46 /* Headers */ = {
+		9E21668B2AC8653843ECA7792C26F660 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0B0F79276574652C5F777473F428E97 /* AwesomeContactPicker-umbrella.h in Headers */,
+				15048994AD4E768BAB619173A40E867B /* AwesomeContactPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1008,11 +1008,11 @@
 /* Begin PBXNativeTarget section */
 		023D5BFB5ACD14D6A350C325C8D72A8A /* AwesomeContactPicker-AwesomeContactPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CAB23F8214695156FD42CEC85066CCE /* Build configuration list for PBXNativeTarget "AwesomeContactPicker-AwesomeContactPicker" */;
+			buildConfigurationList = 9E733E784D6E2E21603D783E1C4A63B5 /* Build configuration list for PBXNativeTarget "AwesomeContactPicker-AwesomeContactPicker" */;
 			buildPhases = (
-				FE892E75EA14425EEA6F29B061D1AD9D /* Sources */,
-				C67695ABD3666F51DB3FD5137CF7B706 /* Frameworks */,
-				F5F1165A4762358A2796E31CB063140B /* Resources */,
+				0B0732BC6F77FAE3F8752082B3C27318 /* Sources */,
+				D59F37CA62FAA8146D6FFFEAF3919C57 /* Frameworks */,
+				14FB41C6A1C76BB531EC854A9F2DCFAE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1103,17 +1103,17 @@
 		};
 		B8CBA820EA6EEF0ED83B357694B2BD30 /* AwesomeContactPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A7570C8B90AE5B1E7B2FD28355A7B36 /* Build configuration list for PBXNativeTarget "AwesomeContactPicker" */;
+			buildConfigurationList = 4D009FD5649CF809D30E3D40777A18EA /* Build configuration list for PBXNativeTarget "AwesomeContactPicker" */;
 			buildPhases = (
-				EC4250CBCF096BAD6A966AFC65D6BC46 /* Headers */,
-				1612D039FC0E03CD0A0F4DE3D24C4E8D /* Sources */,
-				6736C32EDB3978D8D8E5BBF1F87D15D8 /* Frameworks */,
-				6897F138EA75CB3B81C86EC6F0EF822F /* Resources */,
+				9E21668B2AC8653843ECA7792C26F660 /* Headers */,
+				D667E2FD5BB021C1F6B4FE00C7850170 /* Sources */,
+				36480D8C03469F50593FB02A13B5E3F1 /* Frameworks */,
+				1DE4F07E2A37BF7766B5D118798CA11F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CF864E30D714AF4CC512351DFF141C68 /* PBXTargetDependency */,
+				512F2CD96B1249F2D2032AC035BB7B85 /* PBXTargetDependency */,
 			);
 			name = AwesomeContactPicker;
 			productName = AwesomeContactPicker;
@@ -1166,20 +1166,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					6F13695E06195A78EA8A95F8C7ED0D2F = {
-						LastSwiftMigration = 1020;
-					};
-					98A98149697C80CEF8D5772791E92E66 = {
-						LastSwiftMigration = 1020;
-					};
-					C82891EAB7293DBEE916B21F57E8474D = {
-						LastSwiftMigration = 1020;
-					};
-					EE19095A8C98E0BC5774005673495238 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1206,6 +1192,24 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		14FB41C6A1C76BB531EC854A9F2DCFAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7715DBF1B74009C9B2456A86B566707 /* Assets.xcassets in Resources */,
+				6E89F1467066195D7711DECC173716C2 /* Contact.storyboard in Resources */,
+				1D15B8AAB2AE6EAE0793B4499EA4CF4D /* ContactTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4F07E2A37BF7766B5D118798CA11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264FB939CB469F15CB3789160BF14E4F /* AwesomeContactPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F2BB3066CD19498383568978F20DB0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1241,14 +1245,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6897F138EA75CB3B81C86EC6F0EF822F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				25CA77C1E72149C438CC1AD8157AFDB8 /* AwesomeContactPicker.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C937BE3138C5339919754BC30CA46DE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1256,38 +1252,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5F1165A4762358A2796E31CB063140B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A53E809C2BAB4DAFFBA16728CC98B60 /* Assets.xcassets in Resources */,
-				71DEA352253B3A44D86BBA4C158A0956 /* Contact.storyboard in Resources */,
-				2BA1AB7ED7212CA563A75C254D391836 /* ContactTableViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B0732BC6F77FAE3F8752082B3C27318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0D91AD0775557910E489DDD4CEC4D7F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F8C24367BECE6805F3F5890CA96DFE72 /* Pods-AwesomeContactPicker_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1612D039FC0E03CD0A0F4DE3D24C4E8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				810A06B0AB9FCDA1C995FD3FD40B281D /* AwesomeContactPicker-dummy.m in Sources */,
-				45FD8107B00718358AE861135B2283D2 /* AwesomeContactPicker.swift in Sources */,
-				1672E77A621E1AF0E84EE80E5F10FFBE /* AwesomeContactSettings.swift in Sources */,
-				DEBFA5AE3080E7F8B61E14E064F348E8 /* ContactsViewController.swift in Sources */,
-				68883FA58A3BC9499E4A65775A7A7D7C /* ContactTableViewCell.swift in Sources */,
-				3C0F0BFD9E2C1EC676B0412A096EB3EE /* InitialNavController.swift in Sources */,
-				C25B379498197C1057CE03BEA009E4ED /* ResourceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1433,10 +1412,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE892E75EA14425EEA6F29B061D1AD9D /* Sources */ = {
+		D667E2FD5BB021C1F6B4FE00C7850170 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B95322E47D6FC42A8B8AF36BE085AAE /* AwesomeContactPicker-dummy.m in Sources */,
+				85A33CBCCE1FEA221DB78F12F53CEDE7 /* AwesomeContactPicker.swift in Sources */,
+				C1AF357660F634FE56F64731B8EFFAAE /* ContactsViewController.swift in Sources */,
+				A946F00A22E982B300B93661 /* AwesomeContactSettings.swift in Sources */,
+				2E432B5651FDCE7F18C7E060D29613FB /* ContactTableViewCell.swift in Sources */,
+				632CC8A469419AA501D4DD2849BD6759 /* InitialNavController.swift in Sources */,
+				5A9381731BBA380C0295016B7BC32184 /* ResourceHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1454,6 +1440,12 @@
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
 			targetProxy = 56B9D175F6700604138D97E38FE3AAA3 /* PBXContainerItemProxy */;
+		};
+		512F2CD96B1249F2D2032AC035BB7B85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AwesomeContactPicker-AwesomeContactPicker";
+			target = 023D5BFB5ACD14D6A350C325C8D72A8A /* AwesomeContactPicker-AwesomeContactPicker */;
+			targetProxy = 8AD05F4380CB53D702B0DC8F01C64077 /* PBXContainerItemProxy */;
 		};
 		58B8DF9FEB0EE81FC4A07D3EB1D5E975 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1478,12 +1470,6 @@
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
 			targetProxy = 614B05F6D19491786564D01D86C12142 /* PBXContainerItemProxy */;
-		};
-		CF864E30D714AF4CC512351DFF141C68 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AwesomeContactPicker-AwesomeContactPicker";
-			target = 023D5BFB5ACD14D6A350C325C8D72A8A /* AwesomeContactPicker-AwesomeContactPicker */;
-			targetProxy = 02E31C1693381EF7741E6FA2CDEF746F /* PBXContainerItemProxy */;
 		};
 		D9B048D5A0FD2C2EE3F3C520CA1DD81A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1660,9 +1646,25 @@
 			};
 			name = Release;
 		};
-		379BAEBCB67902AAC64FDFE38D35F3C8 /* Debug */ = {
+		2773B09599A5DA8D146888439167A73D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14E4FE2B5BD58194B57D91A2B544CCB5 /* AwesomeContactPicker.xcconfig */;
+			baseConfigurationReference = 4033A5F8F805D87106D2356555418002 /* AwesomeContactPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeContactPicker";
+				INFOPLIST_FILE = "Target Support Files/AwesomeContactPicker/ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = AwesomeContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2B5A0CB1C05A486B1C75A4214068371C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4033A5F8F805D87106D2356555418002 /* AwesomeContactPicker.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1686,46 +1688,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5FE96FC96014431531DC01A9D465A8EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14E4FE2B5BD58194B57D91A2B544CCB5 /* AwesomeContactPicker.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeContactPicker/AwesomeContactPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeContactPicker/AwesomeContactPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeContactPicker/AwesomeContactPicker.modulemap";
-				PRODUCT_MODULE_NAME = AwesomeContactPicker;
-				PRODUCT_NAME = AwesomeContactPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		641D7607566C48C0AA01D28943E85DB0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1827,22 +1795,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		95735124A549D611C94FB1BB9903E739 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14E4FE2B5BD58194B57D91A2B544CCB5 /* AwesomeContactPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeContactPicker";
-				INFOPLIST_FILE = "Target Support Files/AwesomeContactPicker/ResourceBundle-AwesomeContactPicker-AwesomeContactPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = AwesomeContactPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		994ED6A6B5B0D728071762AA70943885 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2075,9 +2027,9 @@
 			};
 			name = Debug;
 		};
-		E7F6A64A0D9CBB687FD7C81E074BC494 /* Debug */ = {
+		E870CFC79FF517F110DA6922A9FACF03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14E4FE2B5BD58194B57D91A2B544CCB5 /* AwesomeContactPicker.xcconfig */;
+			baseConfigurationReference = 4033A5F8F805D87106D2356555418002 /* AwesomeContactPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AwesomeContactPicker";
@@ -2124,6 +2076,40 @@
 			};
 			name = Release;
 		};
+		FDABE2EDFDA8C1D7CB7897F4FC226A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4033A5F8F805D87106D2356555418002 /* AwesomeContactPicker.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeContactPicker/AwesomeContactPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeContactPicker/AwesomeContactPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeContactPicker/AwesomeContactPicker.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeContactPicker;
+				PRODUCT_NAME = AwesomeContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2145,20 +2131,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CAB23F8214695156FD42CEC85066CCE /* Build configuration list for PBXNativeTarget "AwesomeContactPicker-AwesomeContactPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7F6A64A0D9CBB687FD7C81E074BC494 /* Debug */,
-				95735124A549D611C94FB1BB9903E739 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
 				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D009FD5649CF809D30E3D40777A18EA /* Build configuration list for PBXNativeTarget "AwesomeContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5A0CB1C05A486B1C75A4214068371C /* Debug */,
+				FDABE2EDFDA8C1D7CB7897F4FC226A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2172,11 +2158,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A7570C8B90AE5B1E7B2FD28355A7B36 /* Build configuration list for PBXNativeTarget "AwesomeContactPicker" */ = {
+		9E733E784D6E2E21603D783E1C4A63B5 /* Build configuration list for PBXNativeTarget "AwesomeContactPicker-AwesomeContactPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				379BAEBCB67902AAC64FDFE38D35F3C8 /* Debug */,
-				5FE96FC96014431531DC01A9D465A8EC /* Release */,
+				E870CFC79FF517F110DA6922A9FACF03 /* Debug */,
+				2773B09599A5DA8D146888439167A73D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

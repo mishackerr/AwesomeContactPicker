@@ -1,9 +1,9 @@
 {
   "name": "AwesomeContactPicker",
   "version": "0.1.0",
-  "summary": "Fast & customizable integration of contacts picker into your awesome apps",
-  "description": "AwesomeContactPicker help you search and pick single or multiple contacts from the device, with multiple customizable settings.",
-  "homepage": "https://github.com/MichaelGuoXY/AwesomeContactPicker",
+  "summary": "A short description of AwesomeContactPicker.",
+  "description": "AwesomeContactPicker help you search and pick single or multiple contacts from the device.",
+  "homepage": "https://github.com/xygmeetouts/AwesomeContactPicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,12 +18,10 @@
   "platforms": {
     "ios": "11.0"
   },
-  "swift_versions": "5.0",
   "source_files": "AwesomeContactPicker/Classes/**/*",
   "resource_bundles": {
     "AwesomeContactPicker": [
       "AwesomeContactPicker/Assets/*"
     ]
-  },
-  "swift_version": "5.0"
+  }
 }
