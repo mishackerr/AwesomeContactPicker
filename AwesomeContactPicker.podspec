@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Michael Guo' => 'xg229@cornell.edu' }
-  s.source           = { :git => 'https://github.com/xygmeetouts/AwesomeContactPicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MichaelGuoXY/AwesomeContactPicker.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/XiaoyuGuo3'
   
   s.ios.deployment_target = '11.0'

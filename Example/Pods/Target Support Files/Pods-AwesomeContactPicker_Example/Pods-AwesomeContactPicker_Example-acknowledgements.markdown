@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AwesomeContactPicker
 
-Copyright (c) 2019 xygmeetouts <xg229@cornell.edu>
+Copyright (c) 2019 MichaelGuoXY <xg229@cornell.edu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
