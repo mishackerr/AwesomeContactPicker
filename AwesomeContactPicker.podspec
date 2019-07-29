@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   AwesomeContactPicker help you search and pick single or multiple contacts from the device, with multiple customizable settings.
   DESC
   
-  s.homepage         = 'https://github.com/xygmeetouts/AwesomeContactPicker'
+  s.homepage         = 'https://github.com/MichaelGuoXY/AwesomeContactPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Michael Guo' => 'xg229@cornell.edu' }
