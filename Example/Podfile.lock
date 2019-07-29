@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeContactPicker: d982b30b78bdc416e95d5f9f2c5f76ebea9a4c08
+  AwesomeContactPicker: 04b89173cbf86cea8c014197ccaaefac9fd05568
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52

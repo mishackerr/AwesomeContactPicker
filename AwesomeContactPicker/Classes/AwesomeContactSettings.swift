@@ -12,8 +12,8 @@ open class AwesomeContactSettings {
     // Nav bar
     public static var navBarBarTintColor: UIColor = .white
     public static var navBarTintColor: UIColor = .black
-    public static var navBarTitleTextAttributes: [NSAttributedStringKey : Any] = [NSAttributedStringKey.foregroundColor: UIColor.black,
-                                                                                  NSAttributedStringKey.font: UIFont.systemFont(ofSize: 27.0)]
+    public static var navBarTitleTextAttributes: [NSAttributedString.Key : Any] = [NSAttributedString.Key.foregroundColor: UIColor.black,
+                                                                                  NSAttributedString.Key.font: UIFont.systemFont(ofSize: 27.0)]
     
     // Table view
     public static var sectionIndexHidden = false
