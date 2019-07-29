@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial Nav Controller-->
+        <scene sceneID="hlJ-vk-hl9">
+            <objects>
+                <navigationController storyboardIdentifier="InitialNavController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uJQ-sd-8Xb" customClass="InitialNavController" customModule="AwesomeContactPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NRc-C1-K5H">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ynx-65-rwT" kind="relationship" relationship="rootViewController" id="1rl-Rt-Cfw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KW-Sx-Ynt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413" y="149"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="wxx-S1-Lny">
+            <objects>
+                <viewController id="Ynx-65-rwT" customClass="ContactsViewController" customModule="AwesomeContactPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U4Y-iX-3WT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Vv-Nr-dNj">
+                                <rect key="frame" x="0.0" y="88" width="414" height="71"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search friends" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="cmr-rI-frb">
+                                        <rect key="frame" x="19.5" y="15" width="375" height="41.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="41.5" id="XAL-PH-Fh9"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="cmr-rI-frb" firstAttribute="centerY" secondItem="6Vv-Nr-dNj" secondAttribute="centerY" id="GRa-8I-JKz"/>
+                                    <constraint firstAttribute="height" constant="71" id="MGg-Cq-jE2"/>
+                                    <constraint firstItem="cmr-rI-frb" firstAttribute="leading" secondItem="6Vv-Nr-dNj" secondAttribute="leading" constant="19.5" id="UC0-1s-4Gw"/>
+                                    <constraint firstItem="cmr-rI-frb" firstAttribute="centerX" secondItem="6Vv-Nr-dNj" secondAttribute="centerX" id="b4t-YX-EKe"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="049-2w-Dfw">
+                                <rect key="frame" x="0.0" y="159" width="414" height="737"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="049-2w-Dfw" firstAttribute="top" secondItem="6Vv-Nr-dNj" secondAttribute="bottom" id="14c-5z-snM"/>
+                            <constraint firstItem="IFd-8o-jxn" firstAttribute="trailing" secondItem="049-2w-Dfw" secondAttribute="trailing" id="FSr-l2-uRI"/>
+                            <constraint firstItem="049-2w-Dfw" firstAttribute="leading" secondItem="IFd-8o-jxn" secondAttribute="leading" id="R8d-tD-LJm"/>
+                            <constraint firstItem="6Vv-Nr-dNj" firstAttribute="leading" secondItem="IFd-8o-jxn" secondAttribute="leading" id="Swa-IE-BnW"/>
+                            <constraint firstItem="IFd-8o-jxn" firstAttribute="trailing" secondItem="6Vv-Nr-dNj" secondAttribute="trailing" id="XNd-kf-0mP"/>
+                            <constraint firstAttribute="bottom" secondItem="049-2w-Dfw" secondAttribute="bottom" id="XuA-hL-voQ"/>
+                            <constraint firstItem="6Vv-Nr-dNj" firstAttribute="top" secondItem="IFd-8o-jxn" secondAttribute="top" id="qQa-XF-Fhm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IFd-8o-jxn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contacts" id="lyC-5N-3pX"/>
+                    <connections>
+                        <outlet property="searchTextField" destination="cmr-rI-frb" id="mlp-oH-rb5"/>
+                        <outlet property="tableView" destination="049-2w-Dfw" id="IWi-Xd-goI"/>
+                        <outlet property="topContainerView" destination="6Vv-Nr-dNj" id="hzG-Ub-9ht"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Idl-WX-aJy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="411.59420289855075" y="148.66071428571428"/>
+        </scene>
+    </scenes>
+</document>

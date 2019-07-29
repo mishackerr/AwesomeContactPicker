@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "Fast & customizable integration of contacts picker into your awesome apps",
   "description": "AwesomeContactPicker help you search and pick single or multiple contacts from the device, with multiple customizable settings.",
-  "homepage": "https://github.com/xygmeetouts/AwesomeContactPicker",
+  "homepage": "https://github.com/MichaelGuoXY/AwesomeContactPicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -15,6 +15,7 @@
     "git": "https://github.com/xygmeetouts/AwesomeContactPicker.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/XiaoyuGuo3",
   "platforms": {
     "ios": "11.0"
   },

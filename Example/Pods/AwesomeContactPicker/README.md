@@ -1,6 +1,6 @@
 # AwesomeContactPicker
 
-[![CI Status](https://img.shields.io/travis/MichaelGuoXY/AwesomeContactPicker.svg?style=flat)](https://travis-ci.org/MichaelGuoXY/AwesomeContactPicker)
+[![CI Status](https://img.shields.io/travis/xygmeetouts/AwesomeContactPicker.svg?style=flat)](https://travis-ci.org/xygmeetouts/AwesomeContactPicker)
 [![Version](https://img.shields.io/cocoapods/v/AwesomeContactPicker.svg?style=flat)](https://cocoapods.org/pods/AwesomeContactPicker)
 [![License](https://img.shields.io/cocoapods/l/AwesomeContactPicker.svg?style=flat)](https://cocoapods.org/pods/AwesomeContactPicker)
 [![Platform](https://img.shields.io/cocoapods/p/AwesomeContactPicker.svg?style=flat)](https://cocoapods.org/pods/AwesomeContactPicker)
