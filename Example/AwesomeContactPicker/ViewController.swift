@@ -12,8 +12,19 @@ import AwesomeContactPicker
 class ViewController: UIViewController {
 
     @IBAction func didTapOpenContactsButton(_ sender: UIButton) {
-        AwesomeContactPicker.shared.openContacts(with: self)
+        AwesomeContactPicker.shared.openContacts(with: self, delegate: self)
     }
     
+}
+
+extension ViewController: AwesomeContactPickerProtocol {
+    func didDismiss(with type: AwesomeContactPicker.DismissType, contacts: Set<String>?) {
+        switch type {
+        case .done:
+            print(contacts!)
+        default:
+            break
+        }
+    }
 }
 

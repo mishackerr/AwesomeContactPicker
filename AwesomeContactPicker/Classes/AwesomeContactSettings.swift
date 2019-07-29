@@ -6,6 +6,9 @@
 //
 
 open class AwesomeContactSettings {
+    // Pre selected contacts
+    public static var preSelectedContacts: Set<String> = []
+    
     // Nav bar
     public static var navBarBarTintColor: UIColor = .white
     public static var navBarTintColor: UIColor = .black

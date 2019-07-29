@@ -19,6 +19,7 @@ class ContactsViewController: UIViewController {
     let unkownKey = "unkown"
     let contactDictKeys = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
     
+    weak var delegate: AwesomeContactPickerProtocol?
     var contacts = [CNContact]()
     var displayContacts = [DisplayContact]()
     var filteredContacts = [DisplayContact]()
@@ -49,7 +50,7 @@ class ContactsViewController: UIViewController {
             return res
         }
     }
-    var selectedContacts: Set<String> = []
+    var selectedContacts: Set<String> = AwesomeContactSettings.preSelectedContacts
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -132,13 +133,19 @@ extension ContactsViewController {
 // MARK: Nav Actions
 extension ContactsViewController {
     @objc func didTapCancel(_ sender: UIBarButtonItem) {
-        navigationController?.dismiss(animated: true, completion: nil)
+        navigationController?.dismiss(animated: true) { [weak self] in
+            if let strongSelf = self {
+                strongSelf.delegate?.didDismiss(with: .cancel, contacts: nil)
+            }
+        }
     }
     
     @objc func didTapDone(_ sender: UIBarButtonItem) {
-        navigationController?.dismiss(animated: true, completion: {
-            // TODO: pass selected contacts back to the client
-        })
+        navigationController?.dismiss(animated: true) { [weak self] in
+            if let strongSelf = self {
+                strongSelf.delegate?.didDismiss(with: .done, contacts: strongSelf.selectedContacts)
+            }
+        }
     }
 }
 
