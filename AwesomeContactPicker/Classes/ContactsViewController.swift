@@ -197,7 +197,7 @@ extension ContactsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
         let key = title == "#" ? unkownKey : title
-        return sortedContactDictKeys.index(of: key) ?? -1
+        return sortedContactDictKeys.firstIndex(of: key) ?? -1
     }
 }
 
