@@ -55,6 +55,7 @@ class ContactsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = AwesomeContactSettings.title
         setupNavBarItems()
         setupSearchTextField()
         setupTableView()
@@ -76,6 +77,21 @@ class ContactsViewController: UIViewController {
         searchTextField.layer.shadowOffset = CGSize(width: 0, height: 1)
         searchTextField.layer.shadowRadius = 2
         searchTextField.layer.masksToBounds = false
+        
+        // Left View
+        let leftView = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        let searchIcon = UIImageView(frame: CGRect(x: 0, y: 0, width: 14, height: 14))
+        searchIcon.image = ResourceHelper.image(named: "search")
+        searchIcon.contentMode = .scaleAspectFit
+        leftView.addSubview(searchIcon)
+        searchIcon.center = CGPoint(x: leftView.center.x + 5, y: leftView.center.y)
+        searchTextField.leftView = leftView
+        searchTextField.leftViewMode = .always
+        
+        // Configurable
+        searchTextField.placeholder = AwesomeContactSettings.searchTextFieldPlaceHolderText
+        searchTextField.textColor = AwesomeContactSettings.searchTextFieldTextColor
+        searchTextField.font = AwesomeContactSettings.searchTextFieldFont
     }
     
     func setupTableView() {

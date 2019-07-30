@@ -25,6 +25,10 @@ class ContactTableViewCell: UITableViewCell {
         selectionStyle = .none
         thumnailImageView.layer.cornerRadius = thumnailImageView.frame.size.width / 2
         thumnailImageView.layer.masksToBounds = true
+        
+        // Configurable
+        nameLabel.textColor = AwesomeContactSettings.nameLabelTextColor
+        nameLabel.font = AwesomeContactSettings.nameLabelFont
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
