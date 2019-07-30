@@ -1,5 +1,5 @@
 PODS:
-  - AwesomeContactPicker (0.1.0)
+  - AwesomeContactPicker (0.2.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeContactPicker: 97d40817823adfd7cb3144f1946f798e4ddb40e0
+  AwesomeContactPicker: e041c3a43efec9d2208c8913377e70748a98d48a
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
