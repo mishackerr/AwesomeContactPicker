@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AwesomeContactPicker'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Fast & customizable integration of contacts picker into your awesome apps'
   
   s.description      = <<-DESC

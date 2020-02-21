@@ -151,7 +151,7 @@ extension ContactsViewController {
     @objc func didTapCancel(_ sender: UIBarButtonItem) {
         navigationController?.dismiss(animated: true) { [weak self] in
             if let strongSelf = self {
-                strongSelf.delegate?.didDismiss(with: .cancel, contacts: nil)
+                strongSelf.delegate?.contactPicker(strongSelf, didDismissWithType: .cancel, contacts: nil)
             }
         }
     }
@@ -159,7 +159,7 @@ extension ContactsViewController {
     @objc func didTapDone(_ sender: UIBarButtonItem) {
         navigationController?.dismiss(animated: true) { [weak self] in
             if let strongSelf = self {
-                strongSelf.delegate?.didDismiss(with: .done, contacts: strongSelf.selectedContacts)
+                strongSelf.delegate?.contactPicker(strongSelf, didDismissWithType: .done, contacts: strongSelf.selectedContacts)
             }
         }
     }
@@ -220,13 +220,25 @@ extension ContactsViewController: UITableViewDataSource {
 extension ContactsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let contact = contact(of: indexPath) {
-            selectedContacts.insert(contact.identifier)
+            delegate?.contactPicker(self, didSelectContactWithIdentifierKey: contact.identifier, completion: { [unowned self] success in
+                if success {
+                    self.selectedContacts.insert(contact.identifier)
+                } else {
+                    tableView.deselectRow(at: indexPath, animated: false)
+                }
+            })
         }
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         if let contact = contact(of: indexPath) {
-            selectedContacts.remove(contact.identifier)
+            delegate?.contactPicker(self, didDeselectContactWithIdentifierKey: contact.identifier, completion: { [unowned self] success in
+                if success {
+                    self.selectedContacts.remove(contact.identifier)
+                } else {
+                    tableView.selectRow(at: indexPath, animated: false, scrollPosition: .none)
+                }
+            })
         }
     }
     

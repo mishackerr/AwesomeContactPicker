@@ -1,7 +1,9 @@
 import UIKit
 
 public protocol AwesomeContactPickerProtocol: class {
-    func didDismiss(with type: AwesomeContactPicker.DismissType, contacts: Set<String>?)
+    func contactPicker(_ contactPicker: UIViewController, didDismissWithType type: AwesomeContactPicker.DismissType, contacts: Set<String>?)
+    func contactPicker(_ contactPicker: UIViewController, didSelectContactWithIdentifierKey identifierKey: String, completion: @escaping (Bool) -> ())
+    func contactPicker(_ contactPicker: UIViewController, didDeselectContactWithIdentifierKey identifierKey: String, completion: @escaping (Bool) -> ())
 }
 
 open class AwesomeContactPicker {
